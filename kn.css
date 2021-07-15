@@ -1,0 +1,403 @@
+/* #award p:before,
+       p:after {
+        content: "";
+        flex:1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
+        } 
+.card1{
+    height:90px;
+    width:250px;
+    margin-left:300px;
+    position: relative;
+    border:1px solid;
+    border-radius:5px;
+    border-color: grey;
+    padding:9px;
+    display:inline-block;
+    
+}
+.card{
+    height: 90px;
+    width: 250px;
+    margin-left: 20px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: grey;
+    padding: 9px;
+    display: inline-block;
+
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0 0px;
+  padding: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+}
+
+.top-container {
+  background: rgba(14, 14, 15, 0.877);
+  height: 568px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  margin-left: 18%;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+.nav-bar li {
+  color: white;
+  padding: 20px;
+  font-style: "roboto", sans-serif;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-content {
+  display: grid;
+  font-style: "roboto", sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  text-align: center;
+}
+.top-content h2 {
+  font-size: 69px;
+  padding: 0px;
+  margin: 0px;
+}
+.top-content p {
+  font-size: 28px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.second-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  margin: auto 20%;
+}
+
+.div-para {
+  position: relative;
+  justify-items: center;
+  font-size: 21px;
+  padding-top: 10%;
+}
+.cont-image {
+  padding-top: 10%;
+  align-items: center;
+}
+.cont-image img {
+  width: 350px;
+  top: 15%;
+  position: relative;
+}
+
+.second-container-button {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-style: none;
+  border-color: white;
+  padding: 100px;
+}
+.button {
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#wiki-button {
+  color: rgb(86, 88, 88);
+  background-color: rgb(208, 221, 221);
+}
+#youtube-button {
+  color: white;
+  background-color: red;
+}
+#amazon-button {
+  background-color: tomato;
+}
+
+.button-image {
+  height: 25px;
+  border-style: none;
+  border-color: white;
+}
+
+.love-div {
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+  color: white;
+}
+
+.award {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.para-award {
+  overflow: hidden;
+  text-align: center;
+}
+
+.para-award:before,
+.para-award:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.para-award:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.para-award:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.bottom-container {
+  padding: 25px;
+}
+.bottom-container-record {
+  display: flex;
+
+  /* align-items:center; */
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+}
+.record {
+  padding: 0px;
+  margin: 0px;
+  color: black;
+}
+
+.card {
+  display: grid;
+  border: 0.1px solid rgb(206, 202, 202);
+  border-radius: 5px;
+  width: 250px;
+  height: 100px;
+  padding: 7px;
+  margin: 0px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.poetrypoemsong {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.poetrypoem {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.footer {
+  background: black;
+  color: white;
+  height: 200px;
+}
+
+.footer-control-div {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  grid-gap: 20px;
+  /* justify-content:center; */
+  align-items: center;
+}
+.footer-item-div {
+  margin-top: 5px;
+  width: 400px;
+  height: 100px;
+  text-align: left;
+}
+
+.footer-item-div2 {
+  margin-top: 5px;
+  width: 200px;
+  height: 100px;
+  text-align: left;
+}
+
+.vl {
+  border-left: 2px solid rgb(126, 124, 124);
+  height: 110px;
+  margin-top: 45px;
+}
+.md {
+  color: grey;
+}
+.credit {
+  color: teal;
+}
+
+
+
+
+
+@media only screeen and (min-width: 600px) {
+  .top-container {
+    width: 100%;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .second-container {
+    display: grid;
+    padding: 0px;
+    justify-self: space-evenly;
+    margin: auto 20px;
+    grid-gap:20px;
+  }
+  .div-para {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .cont-image {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .cont-image img{
+      width:250px;
+      height: 300px;
+
+  }
+
+  .button-div-main{
+      
+      width: auto;
+      height: auto;
+      
+  }
+  .second-container-button {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      width: auto;
+      height: auto;
+      
+  }
+  .button{
+      display:grid;
+      grid-template-rows: repeat(3, 1fr);
+      height: auto;
+      width: auto;
+
+  }
+  .card {
+    display: grid;
+    height: auto;
+    width: auto;
+  }
+  .bottom-list {
+    display: flex;
+    height: auto;
+    width: auto;
+  }
+  .footer {
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    width: auto;
+  }
+  .footer-control-div {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    flex-direction:row;
+    grid-template-rows:repeat(auto, 1fr);
+    width: auto;
+  }
+  .footer-item-div {
+    display: flex;
+  }
+  .footer-item-div2 {
+    display: flex;
+  }
+  .vl {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+
+    }
+    @media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width: 2000px) {
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width: 480px) {
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width: 768px) {
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
